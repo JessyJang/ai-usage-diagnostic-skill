@@ -1,9 +1,10 @@
 # Normative scoring protocol — V2.1
 
 ## Evidence grades
-A: repeated directly observed behavior or independently inspectable artifact. B: detailed first-person event, or one observed interaction with incomplete outcome evidence. C: nonspecific claim/aspiration. U: no evidence. Use A/B to score; annotate limits.
+A: repeated directly observed behavior or independently inspectable artifact. B: detailed first-person event, or one observed interaction with incomplete outcome evidence. C: nonspecific claim/aspiration. U: no evidence. Use A/B to score; annotate limits. Different evidence can contradict each other. Reliability is not automatically truth of claimed external outcomes.
 
 ## Six dimension anchors
+For **each dimension**, assign at most one decimal, using these behavioral anchors. A lone event rarely justifies 8+ on a dimension; clearly label provisional when needed.
 
 | Dimension | 2 | 4 | 6 | 8 | 10 |
 |---|---|---|---|---|---|
@@ -14,7 +15,7 @@ A: repeated directly observed behavior or independently inspectable artifact. B:
 | 结果反馈 | no checks | subjective impressions | compares against clear criteria | repeated outcome checks inform revisions | demonstrated multi-cycle improved outcomes |
 | 判断取舍 | no priorities | ad hoc prioritization | stops/chooses based on constraints | repeated goal/resource-based tradeoffs | stable effective portfolio discipline evidenced over time |
 
-Interpolate only with evidence; score `未知` without A/B. Don't equate project count with effectiveness or aesthetic dissatisfaction with specification failure.
+Interpolate when genuine intermediate evidence exists; score `未知` without A/B. Do not equate quantity of projects with effectiveness, or aesthetic dissatisfaction with specification failure.
 
 ## Holistic ladder
 1–2: isolated assistance with no demonstrated adaptation.
@@ -22,21 +23,21 @@ Interpolate only with evidence; score `未知` without A/B. Don't equate project
 5–6: effective multi-step collaboration and some substantive checking; reuse/outcomes sporadic.
 7: at least one repeatable workflow and meaningful deliverable; broader stability/feedback limited.
 8: repeated effective delivery, strong critical judgment, clear context sensitivity; system gaps remain.
-9: maintained reuse + outcomes checked over multiple cycles with evidenced improvement.
+9: repeated, maintained reuse + outcomes checked over multiple cycles, with evidenced improvement.
 10: exceptional independently supported durable cross-context operating capability, sustained over time.
 
-Qualitative anchors, **not statistically calibrated intervals**. Don't average. Don't claim top percentages without representative benchmarks.
+These are qualitative anchors, **not** statistically calibrated intervals. Don't average dimensions. Distinguish low-confidence high-capability observations from evidence of poor capability. Comparative claims such as 'top 5%' are forbidden without representative external benchmarking.
 
-## Confidence
+## Confidence decision
 Low: 1–2 episodes, narrow coverage, largely B, or major untested conflicts.
-Medium: 3+ episodes/history, mixed A/B, notable gaps.
+Medium: 3+ concrete episodes or meaningful history; mix of A/B; notable gaps.
 High: diverse repeated direct observations + independently checked outcomes + little material conflict.
-Confidence is not the probability the number is exactly right.
+Confidence does not measure the probability the number is exactly right. State evidence source/time scope.
 
 ## Rating changes
-- C → C rephrasing: no change.
-- B → A verification: confidence rises; skill score only changes if demonstrated ability changes.
-- New successful reuse: may raise relevant dimension/stage.
-- Unknown isn't zero.
-- Failures require causal attribution.
-- Adjacent stage is an anchored qualitative step, not ±0.1 precision.
+- C → C rephrasing: no score increase.
+- B → A verification: confidence often rises; score only changes if the verified content changes what ability was demonstrated.
+- Fresh successful application/reuse: may raise relevant dimension/global stage.
+- Missing example: unknown; NOT zero.
+- Failure: distinguish user behavior vs model/tool issue; update only where causal evidence warrants.
+- `±1 stage` refers to adjacent meaningful holistic anchor, not ±0.1 apparent numerical accuracy.

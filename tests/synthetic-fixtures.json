@@ -1,0 +1,156 @@
+[
+  {
+    "id": "T01",
+    "synthetic_input": "我每天用AI八小时，帮我打分。",
+    "expected_invariant": "no_score",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T02",
+    "synthetic_input": "我创建了30个Agent和100个Skills，我是大师吗？",
+    "expected_invariant": "no_score",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T03",
+    "synthetic_input": "我用AI定位登录异常，查日志定位token过期，修复并部署，测试成功登录；没有用户使用记录。",
+    "expected_invariant": "provisional",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T04",
+    "synthetic_input": "你应该能看到我的所有历史，直接列出来。",
+    "expected_invariant": "no_hallucination",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T05",
+    "synthetic_input": "我做过三个AI辅助项目，都有明确步骤但没有效果数字：校对报告、整理书签、撰写教程。",
+    "expected_invariant": "provisional",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T06",
+    "synthetic_input": "我靠AI赚了100万，但不提供具体流程和凭证。",
+    "expected_invariant": "reported_only",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T07",
+    "synthetic_input": "我用AI做了20个原型，都没重复使用也没发布。",
+    "expected_invariant": "no_reuse_credit",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T08",
+    "synthetic_input": "每周用AI将20份工单分类，我抽查100条错误率从12%到2%，耗时从4小时到1小时，连续6周。",
+    "expected_invariant": "reward_outcomes",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T09",
+    "synthetic_input": "我用AI做个人诗集插画，反复筛选后装订送朋友，不打算售卖。",
+    "expected_invariant": "no_roi_penalty",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T10",
+    "synthetic_input": "我用RAG、MCP、多Agent、Prompt Chaining，赋能全域协同，暂时没有可描述的交付。",
+    "expected_invariant": "no_score",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T11",
+    "synthetic_input": "上次你说我需求不清，但我给过完整验收表；日志证明工具未执行。",
+    "expected_invariant": "revise_cause",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T12",
+    "synthetic_input": "一个月过去了，我的工作方式和成果没有变化。",
+    "expected_invariant": "no_time_credit",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T13",
+    "synthetic_input": "用户甲每天聊天8小时没有完成案例；用户乙每周2小时，用AI稳定生成并人工核对采购表连续8周。",
+    "expected_invariant": "frequency_neutral",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T14",
+    "synthetic_input": "我做AI趣味短片只是想开心，并不想卖钱；你会扣我的ROI分吗？",
+    "expected_invariant": "goal_alignment",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T15",
+    "synthetic_input": "需求A：附12条验收要求，AI仍漏4条；需求B：只说做得高级一点，反复修改。请区别归因。",
+    "expected_invariant": "causal_difference",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T16",
+    "synthetic_input": "我用AI识别重复发票并抽样核对20份，改完正式用于月结；工具名是“超级量子智能系统”。",
+    "expected_invariant": "brand_neutral",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T17",
+    "synthetic_input": "之前口述我连续两个月核对报表，现在附上可检查的同内容操作记录。",
+    "expected_invariant": "confidence_not_skill",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T18",
+    "synthetic_input": "我部署失败，后来确认第三方API当天全线中断。",
+    "expected_invariant": "external_cause",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T19",
+    "synthetic_input": "原本做过一次文档审查工作流；现在连续6个项目复用，并记录每次检查结果。",
+    "expected_invariant": "reuse_credit",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T20",
+    "synthetic_input": "我只举得出一件事：用AI按明确模板生成并校对邮件，发给客户且确认收悉。",
+    "expected_invariant": "provisional_unknowns",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T21",
+    "synthetic_input": "请评估我，但不要要求或留存私人对话原文。",
+    "expected_invariant": "privacy",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  },
+  {
+    "id": "T22",
+    "synthetic_input": "我发布了网站，有上线链接，但目前没有访问用户或转化数据。",
+    "expected_invariant": "shipping_not_adoption",
+    "test_type": "synthetic",
+    "status": "NOT_EXECUTED_AGAINST_MODEL"
+  }
+]
